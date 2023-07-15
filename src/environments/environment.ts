@@ -4,8 +4,10 @@
 
 export const environment = {
     production: false,
-    apiHost: 'http://localhost',
-    apiPort: 3000,
+    //apiHost: 'http://localhost',
+    //apiPort: 3001,
+    apiHost: 'https://api_tienda.initiumsys.com',
+    apiPort: 443,
     shopApiPath: 'shop-api',
     baseHref: '/',
     tokenMethod: 'bearer',
